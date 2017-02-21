@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FD80D2D8F6DDCC99FB7478CE4BC98AA8'
-               BlueprintName = 'Pods-TestJenkins'
+               BlueprintIdentifier = 'F259DCA214247D97EA5D00A03864FD5C'
+               BlueprintName = 'SWRevealViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-TestJenkins.a'>
+               BuildableName = 'libSWRevealViewController.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
