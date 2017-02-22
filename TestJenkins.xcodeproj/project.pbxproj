@@ -561,14 +561,14 @@
 			baseConfigurationReference = 20097183465BED5E0161AA88 /* Pods-TestJenkins.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = RH4PC25J9C;
 				INFOPLIST_FILE = TestJenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carlosduclos.testjenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "52c5e9cc-cd40-46a1-b3a9-4792f34e99fe";
-				PROVISIONING_PROFILE_SPECIFIER = AppStoreTestJenkinsProfile;
+				PROVISIONING_PROFILE = "a925ab08-2deb-4967-a4bf-cff42683e541";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentTestJenkinsProfile;
 			};
 			name = Debug;
 		};
@@ -577,11 +577,14 @@
 			baseConfigurationReference = 3A3E482A380BB0C3CAF13F9F /* Pods-TestJenkins.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = RH4PC25J9C;
 				INFOPLIST_FILE = TestJenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carlosduclos.testjenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "52c5e9cc-cd40-46a1-b3a9-4792f34e99fe";
+				PROVISIONING_PROFILE_SPECIFIER = AppStoreTestJenkinsProfile;
 			};
 			name = Release;
 		};
