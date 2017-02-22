@@ -569,6 +569,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a925ab08-2deb-4967-a4bf-cff42683e541";
 				PROVISIONING_PROFILE_SPECIFIER = DevelopmentTestJenkinsProfile;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -585,6 +586,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "52c5e9cc-cd40-46a1-b3a9-4792f34e99fe";
 				PROVISIONING_PROFILE_SPECIFIER = AppStoreTestJenkinsProfile;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
