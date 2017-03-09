@@ -248,7 +248,7 @@
 					353766AF1E5CBF1000944452 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = RH4PC25J9C;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					353766C81E5CBF1000944452 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -563,13 +563,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = RH4PC25J9C;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestJenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carlosduclos.testjenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a925ab08-2deb-4967-a4bf-cff42683e541";
-				PROVISIONING_PROFILE_SPECIFIER = DevelopmentTestJenkinsProfile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -580,15 +580,15 @@
 			baseConfigurationReference = 3A3E482A380BB0C3CAF13F9F /* Pods-TestJenkins.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = RH4PC25J9C;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestJenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carlosduclos.testjenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "52c5e9cc-cd40-46a1-b3a9-4792f34e99fe";
-				PROVISIONING_PROFILE_SPECIFIER = AppStoreTestJenkinsProfile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
